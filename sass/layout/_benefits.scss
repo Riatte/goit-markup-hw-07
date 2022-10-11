@@ -13,17 +13,15 @@
 &__heading {
     margin-bottom: 10px;
 
-    
-    font-weight: 700;
-    font-size: 14px;
+    @include font(700, 14px);
+
     line-height: 1.2;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 &__paragraph {
-    font-weight: 400;
-    font-size: 14px;
+    @include font(400, 14px);
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: getColor('tetriary-text-color');

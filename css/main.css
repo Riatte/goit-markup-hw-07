@@ -520,6 +520,7 @@ body {
 }
 
 .street {
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -717,6 +718,7 @@ body {
 }
 
 .portfolio-details {
+  font-weight: 400;
   font-size: 18px;
   line-height: 1.5555555556;
   letter-spacing: 0.03em;
